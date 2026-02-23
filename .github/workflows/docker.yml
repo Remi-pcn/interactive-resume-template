@@ -14,11 +14,11 @@ jobs:
         uses: docker/login-action@v2
         with:
           registry: ghcr.io
-          username: ${{ Remi-pcn }}
+          username: ${{ github.actor }}
           password: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Build and Push
         uses: docker/build-push-action@v4
         with:
           push: true
-          tags: ghcr.io/TON_USERNAME/interactive-resume-template:latest
+          tags: ghcr.io/Remi-pcn/interactive-resume-template:latest
