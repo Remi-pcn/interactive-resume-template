@@ -1,0 +1,11 @@
+services:
+  cv:
+    image: ghcr.io/remi-pcn/interactive-resume-template:latest
+    container_name: cv
+    restart: unless-stopped
+    networks:
+      - proxy
+
+networks:
+  proxy:
+    external: true
