@@ -21,4 +21,4 @@ jobs:
         uses: docker/build-push-action@v4
         with:
           push: true
-          tags: ghcr.io/Remi-pcn/interactive-resume-template:latest
+          tags: ghcr.io/remi-pcn/interactive-resume-template:latest
