@@ -10,7 +10,7 @@ import { resumeValidatePlugin } from './vite-plugin-resume-validate'
 export default defineConfig({
   // Dynamic base path: set automatically by GitHub Actions deploy workflow.
   // Falls back to repo name for local development.
-  base: '/',
+  base: process.env.VITE_BASE_PATH ?? '/interactive-resume-template/',
   plugins: [react(), tailwindcss(), assetsDetectPlugin(), resumeValidatePlugin(), resumeSeoPlugin()],
   resolve: {
     alias: {
