@@ -12,26 +12,26 @@ import type { ResumeConfig } from './types'
 export const resumeConfig: ResumeConfig = {
   // ===== PERSONAL INFO =====
   personal: {
-    name: 'Jane Doe',
+    name: 'Rémi Poncin',
     // Auto-detected: just drop your photo or profile image in public/images/ (any .jpg, .png, .webp)
     // You can also set a specific path here to override auto-detection:
     photo: '/images/photo.jpg',
     photoBackEmoji: '👩‍💻', // Shown when clicking the photo (3D flip)
     title: {
-      en: 'Fullstack Developer',
-      fr: 'Développeuse Fullstack',
+      en: 'Student in Networks and Telecommunications',
+      fr: 'Etudiant Réseau et Télécoms',
     },
     subtitle: {
-      en: '6 years of experience',
-      fr: '6 ans d\'expérience',
+      en: 'UTT - University of Technology of Troyes',
+      fr: 'UTT - Université de Technologie de Troyes',
     },
-    location: 'Paris, France',
+    location: 'Troyes, France',
   },
 
   // ===== SEO (used in <head> meta tags) =====
   seo: {
-    title: 'Jane Doe — Fullstack Developer',
-    description: 'Interactive resume of Jane Doe, Fullstack Developer specializing in React and TypeScript.',
+    title: 'Rémi Poncin — Student in Networks and Telecommunications',
+    description: 'Interactive resume of Rémi Poncin, Student in Networks and Telecommunications at UTT.',
   },
 
   // ===== LANGUAGES =====
@@ -46,11 +46,11 @@ export const resumeConfig: ResumeConfig = {
 
   // ===== CONTACT =====
   contact: [
-    { type: 'github', label: 'janedoe', href: 'https://github.com/janedoe' },
-    { type: 'linkedin', label: 'Jane Doe', href: 'https://linkedin.com/in/janedoe' },
-    { type: 'email', label: 'jane@example.com' },
-    { type: 'phone', label: '+33 6 12 34 56 78' },
-    { type: 'location', label: 'Paris, France' },
+    { type: 'github', label: 'Remi-pcn', href: 'https://github.com/remi-pcn' },
+    { type: 'linkedin', label: 'Rémi Poncin', href: 'https://www.linkedin.com/in/r%C3%A9mi-poncin-71978a2a4/' },
+    { type: 'email', label: 'remi.poncin@utt.fr' },
+    { type: 'phone', label: '+33 6 65 79 22 28' },
+    { type: 'location', label: 'Troyes, France' },
   ],
 
   // ===== SKILLS =====
@@ -60,7 +60,8 @@ export const resumeConfig: ResumeConfig = {
       type: 'languages',
       items: [
         { name: { en: 'French', fr: 'Français' }, level: { en: 'Native', fr: 'Natif' } },
-        { name: { en: 'English', fr: 'Anglais' }, level: { en: 'Professional', fr: 'Professionnel' }, details: 'TOEIC 910' },
+        { name: { en: 'English', fr: 'Anglais' }, level: { en: 'Professional', fr: 'Professionnel' }, details: 'Linguaskill C1+' },
+        { name: { en: 'Spanish', fr: 'Espagnol' }, level: { en: 'Intermediate', fr: 'Intermédiaire' }, details: 'SIELE B1' },
       ],
     },
     {
@@ -69,7 +70,7 @@ export const resumeConfig: ResumeConfig = {
       items: [
         { name: 'React' },
         { name: 'TypeScript' },
-        { name: 'Angular' },
+        { name: 'Next.js' },
       ],
     },
     {
@@ -84,8 +85,8 @@ export const resumeConfig: ResumeConfig = {
       title: { en: 'Database', fr: 'Base de données' },
       type: 'badges',
       items: [
-        { name: 'PostgreSQL' },
-        { name: 'MongoDB' },
+        { name: 'MySQL' },
+        { name: 'Prisma' },
       ],
     },
     {
@@ -94,165 +95,151 @@ export const resumeConfig: ResumeConfig = {
       items: [
         { name: 'Docker' },
         { name: 'Kubernetes' },
-        { name: 'AWS' },
-        { name: 'GitHub Actions' },
-      ],
-    },
-    {
-      title: { en: 'Methodologies', fr: 'Méthodologies' },
-      type: 'text',
-      items: [
-        { name: { en: 'Agile/Scrum, TDD, Code Review, CI/CD', fr: 'Agile/Scrum, TDD, Code Review, CI/CD' } },
+        { name: 'Portainer' },
+        { name: 'Proxmox' },
       ],
     },
   ],
 
+
   // ===== PROFESSIONAL EXPERIENCES =====
-  experiences: [
+  experiences: [/**
     {
-      id: 'company-a',
-      company: { en: 'TechCorp', fr: 'TechCorp' },
-      role: { en: 'Senior Fullstack Developer', fr: 'Développeuse Fullstack Senior' },
-      type: { en: 'Permanent', fr: 'CDI' },
-      period: { en: '2022 - Present', fr: '2022 - Présent' },
+      id: 'utt-audiovisual-technician',
+      company: { en: 'University of Technology of Troyes (UTT)', fr: 'Université de Technologie de Troyes (UTT)' },
+      role: { en: 'Audiovisual Technician', fr: 'Technicien audiovisuel' },
+      type: { en: 'Part-time / Student job', fr: 'Emploi étudiant' },
+      period: { en: 'Jun 2025 - Present', fr: 'juin 2025 - aujourd\'hui' },
       description: {
-        en: 'Led the development of a SaaS platform used by 10k+ users. Built microservices architecture and modern React frontend.',
-        fr: 'Direction du développement d\'une plateforme SaaS utilisée par 10k+ utilisateurs. Architecture microservices et frontend React moderne.',
+        fr: 'Gestion du son, de la lumière et du stream lors d\'événements à l\'UTT. Résolution de problèmes matériel en temps réel et gestion du stress.',
+        en: 'Managed audio, lighting, and live streaming for university events. Troubleshot hardware issues in real time under pressure.',
       },
-      techs: ['React', 'TypeScript', 'Node.js', 'PostgreSQL', 'Docker', 'AWS'],
+      techs: ['Audio', 'Lighting', 'Video', 'Streaming'],
+      details: {
+        context: {
+          fr: 'Troyes, Grand Est, France — sur site.',
+          en: 'Troyes, Grand Est, France — on-site.',
+        },
+        tasks: {
+          fr: [
+            'Régie son et lumière pendant des événements (installation, tests, exploitation)',
+            'Mise en place et supervision du stream',
+            'Diagnostic et résolution de pannes matériel en temps réel',
+            'Coordination avec les organisateurs pour respecter le déroulé',
+          ],
+          en: [
+            'Operated audio and lighting during events (setup, checks, live operation)',
+            'Set up and monitored live streaming',
+            'Diagnosed and fixed hardware issues in real time',
+            'Coordinated with organizers to keep the show running smoothly',
+          ],
+        },
+        env: {
+          fr: 'Audiovisuel / streaming / support live',
+          en: 'Audiovisual / live streaming / on-site live support',
+        },
+      },
       isHighlighted: true,
-      details: {
-        context: {
-          en: 'Team of 8 developers within a 50-person product company. Agile/Scrum methodology with 2-week sprints, CI/CD pipeline with GitHub Actions, code reviews on every PR.',
-          fr: 'Équipe de 8 développeurs au sein d\'une société produit de 50 personnes. Méthodologie Agile/Scrum avec sprints de 2 semaines, pipeline CI/CD avec GitHub Actions, code review sur chaque PR.',
-        },
-        tasks: {
-          en: [
-            'Designed and implemented the frontend architecture (monorepo, shared component library)',
-            'Built a real-time notification system using WebSockets and Redis pub/sub',
-            'Migrated legacy codebase from JavaScript to TypeScript (200+ files)',
-            'Implemented role-based access control (RBAC) across the entire platform',
-            'Set up automated testing with 85% code coverage (unit, integration, E2E)',
-            'Led the migration from REST to GraphQL for the main API',
-            'Built a dashboard analytics module with interactive charts and export features',
-            'Mentored 3 junior developers through pair programming and weekly 1-on-1s',
-          ],
-          fr: [
-            'Conception et implémentation de l\'architecture frontend (monorepo, bibliothèque de composants partagés)',
-            'Création d\'un système de notifications temps réel via WebSockets et Redis pub/sub',
-            'Migration du code legacy de JavaScript vers TypeScript (200+ fichiers)',
-            'Implémentation d\'un contrôle d\'accès basé sur les rôles (RBAC) sur toute la plateforme',
-            'Mise en place de tests automatisés avec 85% de couverture (unitaires, intégration, E2E)',
-            'Pilotage de la migration de REST vers GraphQL pour l\'API principale',
-            'Développement d\'un module de tableau de bord analytique avec graphiques interactifs et export',
-            'Mentorat de 3 développeurs juniors via pair programming et 1-on-1 hebdomadaires',
-          ],
-        },
-        training: {
-          en: [
-            'AWS Solutions Architect certification',
-            'Internal training on Kubernetes orchestration',
-          ],
-          fr: [
-            'Certification AWS Solutions Architect',
-            'Formation interne sur l\'orchestration Kubernetes',
-          ],
-        },
-        env: {
-          en: 'React / TypeScript / Node.js / PostgreSQL / GraphQL / Redis / Docker / AWS / GitHub Actions / Datadog',
-          fr: 'React / TypeScript / Node.js / PostgreSQL / GraphQL / Redis / Docker / AWS / GitHub Actions / Datadog',
-        },
-      },
     },
     {
-      id: 'company-b',
-      company: { en: 'WebAgency', fr: 'WebAgency' },
-      role: { en: 'Frontend Developer', fr: 'Développeuse Frontend' },
-      type: { en: 'Permanent', fr: 'CDI' },
-      period: { en: '2019 - 2022', fr: '2019 - 2022' },
-      description: {
-        en: 'Developed responsive web applications for various clients. Specialized in React and Angular projects.',
-        fr: 'Développement d\'applications web responsives pour divers clients. Spécialisée en projets React et Angular.',
-      },
-      techs: ['React', 'Angular', 'TypeScript', 'SCSS'],
-      details: {
-        context: {
-          en: 'Digital agency with 20+ clients across various industries (retail, finance, healthcare). Team of 12 developers, working on 3-4 projects simultaneously.',
-          fr: 'Agence digitale avec 20+ clients dans différents secteurs (retail, finance, santé). Équipe de 12 développeurs, travaillant sur 3-4 projets simultanément.',
-        },
-        tasks: {
-          en: [
-            'Built 15+ client-facing web applications from scratch',
-            'Created and maintained a shared design system used across all agency projects',
-            'Implemented complex form workflows with multi-step validation',
-            'Optimized web performance achieving 90+ scores on Core Web Vitals',
-            'Integrated third-party APIs (payment, CRM, analytics)',
-            'Set up Storybook documentation for reusable components',
-            'Collaborated closely with UX designers to translate Figma mockups into pixel-perfect UIs',
-          ],
-          fr: [
-            'Développement de 15+ applications web clients from scratch',
-            'Création et maintenance d\'un design system partagé utilisé sur tous les projets de l\'agence',
-            'Implémentation de workflows de formulaires complexes avec validation multi-étapes',
-            'Optimisation des performances web avec scores 90+ sur les Core Web Vitals',
-            'Intégration d\'APIs tierces (paiement, CRM, analytics)',
-            'Mise en place de la documentation Storybook pour les composants réutilisables',
-            'Collaboration étroite avec les designers UX pour traduire les maquettes Figma en interfaces pixel-perfect',
-          ],
-        },
-        training: {
-          en: [
-            'Angular Advanced workshop (2 days)',
-            'Accessibility (WCAG 2.1) certification',
-          ],
-          fr: [
-            'Workshop Angular Avancé (2 jours)',
-            'Certification Accessibilité (WCAG 2.1)',
-          ],
-        },
-        env: {
-          en: 'React / Angular / TypeScript / SCSS / Tailwind CSS / Storybook / Figma / GitLab CI',
-          fr: 'React / Angular / TypeScript / SCSS / Tailwind CSS / Storybook / Figma / GitLab CI',
-        },
-      },
-    },
-    {
-      id: 'internship',
-      company: { en: 'StartupXYZ', fr: 'StartupXYZ' },
-      role: { en: 'Fullstack Developer Intern', fr: 'Stagiaire Développeuse Fullstack' },
+      id: 'tcp-warehouse-handler-intern',
+      company: { en: 'TCP — Transport & Logistics', fr: 'TCP — Transport et Logistique' },
+      role: { en: 'Warehouse Handler', fr: 'Manutentionnaire' },
       type: { en: 'Internship', fr: 'Stage' },
-      period: { en: '2018 - 2019', fr: '2018 - 2019' },
+      period: { en: 'Jul 2024 - Aug 2024', fr: 'juil. 2024 - août 2024' },
       description: {
-        en: 'Contributed to the development of an e-commerce platform. Gained experience in fullstack development.',
-        fr: 'Contribution au développement d\'une plateforme e-commerce. Acquisition d\'expérience en développement fullstack.',
+        fr: 'Employé de manutention : préparation de commandes, palettisation et filmage de palettes.',
+        en: 'Warehouse operations: order picking, palletizing and pallet wrapping.',
       },
-      techs: ['React', 'Node.js', 'MongoDB', 'Machine Learning'],
+      techs: [],
       details: {
         context: {
-          en: 'Early-stage startup (seed round), small team of 5 developers building an e-commerce platform from the ground up. Fast-paced environment with weekly releases.',
-          fr: 'Startup en phase de démarrage (seed round), petite équipe de 5 développeurs construisant une plateforme e-commerce from scratch. Environnement rapide avec des releases hebdomadaires.',
+          fr: 'Troyes, Grand Est, France — sur site.',
+          en: 'Troyes, Grand Est, France — on-site.',
         },
         tasks: {
-          en: [
-            'Developed the product catalog with advanced filtering and search',
-            'Built the shopping cart with real-time inventory checking',
-            'Integrated Stripe payment gateway with 3D Secure support',
-            'Implemented user authentication with JWT and OAuth (Google, Facebook)',
-            'Created an admin dashboard for order management and analytics',
-            'Wrote API documentation with Swagger/OpenAPI',
-          ],
           fr: [
-            'Développement du catalogue produits avec filtrage avancé et recherche',
-            'Création du panier d\'achat avec vérification de stock en temps réel',
-            'Intégration de la passerelle de paiement Stripe avec support 3D Secure',
-            'Implémentation de l\'authentification utilisateur avec JWT et OAuth (Google, Facebook)',
-            'Création d\'un tableau de bord admin pour la gestion des commandes et les analytics',
-            'Rédaction de la documentation API avec Swagger/OpenAPI',
+            'Préparation de commandes',
+            'Palettisation et manutention',
+            'Filmage et sécurisation de palettes',
+          ],
+          en: [
+            'Order picking and preparation',
+            'Pallet wrapping and securing',
+            'Palletizing and general handling',
           ],
         },
         env: {
-          en: 'React / Node.js / Express / MongoDB / Stripe / JWT / Docker / Heroku',
-          fr: 'React / Node.js / Express / MongoDB / Stripe / JWT / Docker / Heroku',
+          fr: 'Logistique / entrepôt',
+          en: 'Warehouse / logistics',
+        },
+      },
+    },
+  */],
+  // ===== ASSOCIATIVE EXPERIENCES (optional) =====
+  associativeExperiences: [
+    {
+      id: 'utt-net-group-treasurer',
+      association: { en: 'UTT Net Group', fr: 'UTT Net Group' },
+      role: { fr: 'Vice-président', en: 'Assistant President' },
+      type: { fr: 'Association', en: 'Volunteer' },
+      period: { fr: 'Août 2024 - aujourd’hui', en: 'Aug 2024 - Present' },
+      description: {
+        fr: 'Organisation d\'évènements et administrateur des serveurs étudiants.',
+        en: 'Event organization and administration of student servers.',
+      },
+      techs: [ 'Linux', 'Proxmox', 'Docker', 'Kubernetes', 'Canva'],
+      details: {
+        context: {
+          fr: 'UTT Net Group (Troyes, Grand Est, France)',
+          en: 'UTT Net Group (Troyes, Grand Est, France)',
+        },
+        tasks: {
+          fr: [
+            'FAUT FORMULER EN FRANÇAIS',
+          ],
+          en: [
+            'FORMULATE IN ENGLISH',
+          ],
+        },
+        env: {
+          fr: 'Canva / Réseaux Sociaux / Administration serveurs (Linux, Proxmox, Docker, Kubernetes)',
+          en: 'Canva / Social Media / Server administration (Linux, Proxmox, Docker, Kubernetes)',
+        },
+      },
+    },
+    {
+      id: 'utt-arena-organization',
+      association: { en: 'UTT Arena (UTT Net Group)', fr: 'UTT Arena (UTT Net Group)' },
+      role: { fr: 'Organisateur — UTT Arena (2024–2025)', en: 'Organizer — UTT Arena (2024–2025)' },
+      type: { fr: 'Association', en: 'Association' },
+      period: { fr: 'août 2024 - janv. 2025', en: 'Aug 2024 - Jan 2025' },
+      description: {
+        fr: 'Coordinateur de l\'UTT Arena 2025, compétition esport, et responsable développement sur l\'édition 2024.',
+        en: 'Coordinator for UTT Arena 2025, an esports competition, and lead developer for the 2024 edition.',
+      },
+      techs: ['Git', 'TypeScript', 'React', 'Next.js', 'Node.js', 'GitHub', 'Prisma'],
+      details: {
+        context: {
+          fr: 'UTT Arena : plus grande compétition esport du Grand Est, organisée à l’UTT. 23e édition (28–30 novembre 2025) : 496 joueurs et ~100 bénévoles.',
+          en: 'UTT Arena: one of the largest esports competitions in the Grand Est region, hosted at UTT. 23rd edition (Nov 28–30, 2025): 496 players and ~100 volunteers.',
+        },
+        tasks: {
+          fr: [
+            "L'UTT Arena est la plus grande compétition esport du Grand-Est ayant lieu tous les ans dans les locaux de l'UTT. Accueillant 496 joueurs et une centaine de bénévoles poru sa 23ème édition du 28 au 30 novembre 2025, elle est un événement majeur du calendrier étudiant de l'UTT.",
+            "Responsable du développement pour l'édition 2024, mes missions ont été de maintenir et implémenter les fonctionnalités nécessaires du site web. En plus de cela, j'ai également assuré un rôle de responsable de l'un des différents tournois nécessitant alors une forte préparation en amont de l'événement.",
+            "Pour l'édition 2025, j'ai pris le poste de coordinateur et vice président de l'événement. Ma mission principale est alors de coordonner les différentes membres et assurrer la préparation de l'événement. Coordinateur de la communication et du graphisme j'ai été amené à me former afin d'alléger le travail des bénévoles en en assumant une partie. En plus de cela, j'ai également un rôle administratif important en lien avec les différents acteurs de l'événement ainsi qu'un important rôle de communication avec les participants aux vus de mon poste.",
+            "Je m'occupe également de la gestion de deux pôles que sont l'animation et le développement sur lesquels j'effectue des tâches aux côtés des autres membres afin de les aider. Les 7 coordinateurs travaillent ensemble durant près d'un an afin de proposer un évenement de qualité aux joueurs et au public.", 
+          ],
+          en: [
+            "UTT Arena is one of the largest esports competitions in the Grand Est region, held annually at UTT. With 496 players and around 100 volunteers for its 23rd edition from November 28 to 30, 2025, it is a major event in the UTT student calendar.",
+            "As coordinator for the 2025 edition, I am primarily responsible for coordinating teams and distributing tasks. I also have a significant administrative role liaising with UTT, the prefecture, and partners.",
+            "I also manage two key areas: animation and development, where I work alongside other members to assist them. The 7 coordinators work together for nearly a year to deliver a quality event for players and the public.",
+          ],
+        },
+        env: {
+          fr: 'Coordination événementielle / partenariats / gestion d’équipe / développement web (TypeScript, React, Next.js)',
+          en: 'Event coordination / partnerships / team leadership / web development (TypeScript, React, Next.js)',
         },
       },
     },
@@ -286,40 +273,39 @@ export const resumeConfig: ResumeConfig = {
   // ===== EDUCATION =====
   education: [
     {
-      school: { en: 'University of Paris', fr: 'Université de Paris' },
-      degree: { en: 'Master in Computer Science', fr: 'Master Informatique' },
-      specialty: { en: 'Web & Mobile Development', fr: 'Développement Web & Mobile' },
-      period: '2017 - 2019',
+      school: { en: 'University of Technology of Troyes', fr: 'Université de Technologie de Troyes' },
+      degree: { en: 'Engineer in Networks and Telecommunications', fr: 'Ingénieur en Réseaux et Télécommunications' },
+      period: '2025 - 2028',
     },
     {
-      school: { en: 'University of Paris', fr: 'Université de Paris' },
-      degree: { en: 'Bachelor in Computer Science', fr: 'Licence Informatique' },
-      period: '2014 - 2017',
+      school: { en: 'University of Technology of Troyes', fr: 'Université de Technologie de Troyes' },
+      degree: { en: 'Preparatory Cycle for Engineering', fr: 'Cycle préparatoire à la formation d\'ingénieur' },
+      period: '2023 - 2025',
     },
   ],
 
   // ===== HOBBIES (optional) =====
   hobbies: [
     {
-      title: { en: 'Photography', fr: 'Photographie' },
+      title: { en: 'Drum', fr: 'Batterie' },
       details: [
-        { en: 'Street photography', fr: 'Photo de rue' },
-        { en: '5 years', fr: '5 ans' },
+        { en: '14 years', fr: '14 ans' },
       ],
     },
     {
-      title: { en: 'Hiking', fr: 'Randonnée' },
+      title: { en: 'Sports', fr: 'Sport' },
       details: [
-        { en: 'Mountain trails', fr: 'Sentiers de montagne' },
+        { en: 'Running', fr: 'Course à pied' },
+        { en: 'Badminton', fr: 'Badminton' },
+        { en: 'Archery', fr: 'Tir à l\'arc' },
       ],
     },
     {
-      title: { en: 'Open Source', fr: 'Open Source' },
-    },
-    {
-      title: { en: 'Guitar', fr: 'Guitare' },
+      title: { en: '3D printing', fr: 'Impression 3D' },
       details: [
-        { en: '3 years', fr: '3 ans' },
+        { en: 'Fusion 360', fr: 'Fusion 360' },
+        { en: 'Cura', fr: 'Cura' },
+        { en: 'Creality Ender 3 V2', fr: 'Creality Ender 3 V2' },
       ],
     },
   ],
@@ -352,6 +338,7 @@ export const resumeConfig: ResumeConfig = {
       education: { en: 'EDUCATION', fr: 'FORMATION' },
       projects: { en: 'PROJECTS', fr: 'PROJETS' },
       hobbies: { en: 'HOBBIES', fr: 'LOISIRS' },
+      associativeExperience: { en: 'ASSOCIATIVE EXPERIENCE', fr: 'EXPÉRIENCES ASSOCIATIVES' },
     },
     experience: {
       mainTasks: { en: 'Main tasks:', fr: 'Tâches principales :' },

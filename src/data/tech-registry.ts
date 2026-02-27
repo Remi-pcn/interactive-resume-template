@@ -98,6 +98,7 @@ const TECH_REGISTRY = {
 
   // ===== DevOps & Cloud =====
   'Docker': { color: '#2496ED' },
+  'Portainer': { color: '#8e7d56' },
   'Kubernetes': { color: '#326CE5' },
   'AWS': { color: '#FF9900' },
   'GCP': { color: '#4285F4' },

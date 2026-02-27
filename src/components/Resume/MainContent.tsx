@@ -7,7 +7,7 @@ import { EducationItem } from './EducationItem'
 
 export function MainContent() {
   const { resolve, resolveArray } = useTranslation()
-  const { personal, experiences, projects, education, labels } = resumeConfig
+  const { personal, experiences, associativeExperiences, projects, education, labels } = resumeConfig
   const [expandedExp, setExpandedExp] = useState<string | null>(null)
 
   const toggleExp = (id: string) => {
@@ -78,6 +78,52 @@ export function MainContent() {
           ))}
         </div>
       </div>
+
+      {/* Associatives Experiences */}
+      {associativeExperiences && associativeExperiences.length > 0 && labels.sections.associativeExperience && (
+        <div className="relative">
+        <h2 className="text-sm font-bold tracking-widest text-resume-text mb-6 pb-2 border-b border-resume-primary/20">
+          {resolve(labels.sections.associativeExperience)}
+        </h2>
+        <div className="space-y-2">
+          {associativeExperiences.map((exp) => (
+            <ExperienceItem
+              key={exp.id}
+              year={resolve(exp.period)}
+              company={resolve(exp.association)}
+              type={exp.type ? resolve(exp.type) : undefined}
+              role={resolve(exp.role)}
+              description={resolve(exp.description)}
+              techs={exp.techs}
+              expanded={expandedExp === exp.id}
+              onToggle={() => toggleExp(exp.id)}
+              details={
+                exp.details
+                  ? {
+                      context: resolve(exp.details.context),
+                      tasks: exp.details.tasks ? resolveArray(exp.details.tasks) : undefined,
+                      training: exp.details.training ? resolveArray(exp.details.training) : undefined,
+                      env: resolve(exp.details.env),
+                    }
+                  : undefined
+              }
+              subItem={
+                exp.subItem
+                  ? {
+                      title: resolve(exp.subItem.title),
+                      description: resolve(exp.subItem.description),
+                    }
+                  : undefined
+              }
+              labels={experienceLabels}
+              isHighlighted={exp.isHighlighted}
+            />
+          ))}
+        </div>
+
+      </div> 
+      )}
+      
 
       {/* Projects */}
       {projects && projects.length > 0 && labels.sections.projects && (
