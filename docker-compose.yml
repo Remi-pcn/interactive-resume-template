@@ -3,6 +3,7 @@ services:
     image: ghcr.io/remi-pcn/interactive-resume-template:latest
     container_name: cv
     restart: unless-stopped
+    pull_policy: always
     networks:
       - caddy_proxy
 
