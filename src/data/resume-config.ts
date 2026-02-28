@@ -103,170 +103,173 @@ export const resumeConfig: ResumeConfig = {
 
 
   // ===== PROFESSIONAL EXPERIENCES =====
-  experiences: [/**
-    {
-      id: 'utt-audiovisual-technician',
-      company: { en: 'University of Technology of Troyes (UTT)', fr: 'Université de Technologie de Troyes (UTT)' },
-      role: { en: 'Audiovisual Technician', fr: 'Technicien audiovisuel' },
-      type: { en: 'Part-time / Student job', fr: 'Emploi étudiant' },
-      period: { en: 'Jun 2025 - Present', fr: 'juin 2025 - aujourd\'hui' },
-      description: {
-        fr: 'Gestion du son, de la lumière et du stream lors d\'événements à l\'UTT. Résolution de problèmes matériel en temps réel et gestion du stress.',
-        en: 'Managed audio, lighting, and live streaming for university events. Troubleshot hardware issues in real time under pressure.',
-      },
-      techs: ['Audio', 'Lighting', 'Video', 'Streaming'],
-      details: {
-        context: {
-          fr: 'Troyes, Grand Est, France — sur site.',
-          en: 'Troyes, Grand Est, France — on-site.',
-        },
-        tasks: {
-          fr: [
-            'Régie son et lumière pendant des événements (installation, tests, exploitation)',
-            'Mise en place et supervision du stream',
-            'Diagnostic et résolution de pannes matériel en temps réel',
-            'Coordination avec les organisateurs pour respecter le déroulé',
-          ],
-          en: [
-            'Operated audio and lighting during events (setup, checks, live operation)',
-            'Set up and monitored live streaming',
-            'Diagnosed and fixed hardware issues in real time',
-            'Coordinated with organizers to keep the show running smoothly',
-          ],
-        },
-        env: {
-          fr: 'Audiovisuel / streaming / support live',
-          en: 'Audiovisual / live streaming / on-site live support',
-        },
-      },
-      isHighlighted: true,
+  experiences: [
+  {
+    id: 'utt-audiovisual-technician',
+    company: { en: 'University of Technology of Troyes (UTT)', fr: 'Université de Technologie de Troyes (UTT)' },
+    role: { en: 'Audiovisual Technician', fr: 'Technicien audiovisuel' },
+    type: { en: 'Part-time / Student job', fr: 'Emploi étudiant' },
+    period: { en: 'September 2025 - Present', fr: 'Septembre 2025 - aujourd’hui' },
+    description: {
+      fr: 'Gestion du son, de la lumière et du stream lors d’événements à l’UTT. Résolution de problèmes matériel en temps réel et gestion du stress.',
+      en: 'Managed audio, lighting, and live streaming for university events. Troubleshot hardware issues in real time under pressure.',
     },
-    {
-      id: 'tcp-warehouse-handler-intern',
-      company: { en: 'TCP — Transport & Logistics', fr: 'TCP — Transport et Logistique' },
-      role: { en: 'Warehouse Handler', fr: 'Manutentionnaire' },
-      type: { en: 'Internship', fr: 'Stage' },
-      period: { en: 'Jul 2024 - Aug 2024', fr: 'juil. 2024 - août 2024' },
-      description: {
-        fr: 'Employé de manutention : préparation de commandes, palettisation et filmage de palettes.',
-        en: 'Warehouse operations: order picking, palletizing and pallet wrapping.',
+    techs: ['Audio', 'Lighting', 'Video', 'Streaming'],
+    details: {
+      context: {
+        fr: 'Troyes, Grand Est, France — sur site.',
+        en: 'Troyes, Grand Est, France — on-site.',
       },
-      techs: [],
-      details: {
-        context: {
-          fr: 'Troyes, Grand Est, France — sur site.',
-          en: 'Troyes, Grand Est, France — on-site.',
-        },
-        tasks: {
-          fr: [
-            'Préparation de commandes',
-            'Palettisation et manutention',
-            'Filmage et sécurisation de palettes',
-          ],
-          en: [
-            'Order picking and preparation',
-            'Pallet wrapping and securing',
-            'Palletizing and general handling',
-          ],
-        },
-        env: {
-          fr: 'Logistique / entrepôt',
-          en: 'Warehouse / logistics',
-        },
+      tasks: {
+        fr: [
+          'Régie son et lumière pendant des événements (installation, tests, exploitation).',
+          'Mise en place et supervision du stream.',
+          'Diagnostic et résolution de pannes matériel en temps réel.',
+          'Coordination avec les organisateurs pour respecter le déroulé.',
+        ],
+        en: [
+          'Operated audio and lighting during events (setup, checks, live operation).',
+          'Set up and monitored live streaming.',
+          'Diagnosed and fixed hardware issues in real time.',
+          'Coordinated with organizers to keep the event running smoothly.',
+        ],
+      },
+      env: {
+        fr: 'Audiovisuel / streaming / support live',
+        en: 'Audiovisual / live streaming / on-site live support',
       },
     },
-  */],
-  // ===== ASSOCIATIVE EXPERIENCES (optional) =====
-  associativeExperiences: [
-    {
-      id: 'utt-net-group-treasurer',
-      association: { en: 'UTT Net Group', fr: 'UTT Net Group' },
-      role: { fr: 'Vice-président', en: 'Assistant President' },
-      type: { fr: 'Association', en: 'Volunteer' },
-      period: { fr: 'Août 2024 - aujourd’hui', en: 'Aug 2024 - Present' },
-      description: {
-        fr: 'Organisation d\'évènements et administrateur des serveurs étudiants.',
-        en: 'Event organization and administration of student servers.',
+    isHighlighted: true,
+  },
+  {
+    id: 'tcp-warehouse-handler-intern',
+    company: { en: 'TCP — Transport & Logistics', fr: 'TCP — Transport et Logistique' },
+    role: { en: 'Warehouse Handler', fr: 'Manutentionnaire' },
+    type: { en: 'Internship', fr: 'Stage' },
+    period: { en: 'Jul 2024 - Aug 2024', fr: 'juil. 2024 - août 2024' },
+    description: {
+      fr: 'Employé de manutention : préparation de commandes, palettisation et filmage de palettes.',
+      en: 'Warehouse operations: order picking, palletizing and pallet wrapping.',
+    },
+    techs: [],
+    details: {
+      context: {
+        fr: 'Troyes, Grand Est, France — sur site.',
+        en: 'Troyes, Grand Est, France — on-site.',
       },
-      techs: [ 'Linux', 'Proxmox', 'Docker', 'Kubernetes', 'Canva'],
-      details: {
-        context: {
-          fr: 'UTT Net Group (Troyes, Grand Est, France)',
-          en: 'UTT Net Group (Troyes, Grand Est, France)',
-        },
-        tasks: {
-          fr: [
-            'FAUT FORMULER EN FRANÇAIS',
-          ],
-          en: [
-            'FORMULATE IN ENGLISH',
-          ],
-        },
-        env: {
-          fr: 'Canva / Réseaux Sociaux / Administration serveurs (Linux, Proxmox, Docker, Kubernetes)',
-          en: 'Canva / Social Media / Server administration (Linux, Proxmox, Docker, Kubernetes)',
-        },
+      tasks: {
+        fr: [
+          'Préparation de commandes.',
+          'Palettisation et manutention.',
+          'Filmage et sécurisation de palettes.',
+        ],
+        en: [
+          'Order picking and preparation.',
+          'Pallet wrapping and securing.',
+          'Palletizing and general handling.',
+        ],
+      },
+      env: {
+        fr: 'Logistique / entrepôt',
+        en: 'Warehouse / logistics',
       },
     },
-    {
-      id: 'utt-arena-organization',
-      association: { en: 'UTT Arena (UTT Net Group)', fr: 'UTT Arena (UTT Net Group)' },
-      role: { fr: 'Organisateur — UTT Arena (2024–2025)', en: 'Organizer — UTT Arena (2024–2025)' },
-      type: { fr: 'Association', en: 'Association' },
-      period: { fr: 'août 2024 - janv. 2025', en: 'Aug 2024 - Jan 2025' },
-      description: {
-        fr: 'Coordinateur de l\'UTT Arena 2025, compétition esport, et responsable développement sur l\'édition 2024.',
-        en: 'Coordinator for UTT Arena 2025, an esports competition, and lead developer for the 2024 edition.',
+  },
+  {
+    id: 'utt-net-group-vice-president',
+    company: { en: 'UTT Net Group', fr: 'UTT Net Group' },
+    role: { en: 'Assistant President', fr: 'Vice-président' },
+    type: { en: 'Volunteer', fr: 'Association' },
+    period: { en: 'Aug 2024 – Present', fr: 'août 2024 – aujourd’hui' },
+    description: {
+      fr: 'Organisation d’événements et d’ateliers techniques pour les étudiants, et administration des serveurs étudiants.',
+      en: 'Organization of student events and technical workshops, and administration of student servers.',
+    },
+    techs: ['Linux', 'Proxmox', 'Docker', 'Kubernetes', 'Canva'],
+    details: {
+      context: {
+        fr: 'UTT Net Group (Troyes, Grand Est, France) — Association étudiante dédiée à l’informatique et aux réseaux.',
+        en: 'UTT Net Group (Troyes, Grand Est, France) — Student association focused on IT and networking.',
       },
-      techs: ['Git', 'TypeScript', 'React', 'Next.js', 'Node.js', 'GitHub', 'Prisma'],
-      details: {
-        context: {
-          fr: 'UTT Arena : plus grande compétition esport du Grand Est, organisée à l’UTT. 23e édition (28–30 novembre 2025) : 496 joueurs et ~100 bénévoles.',
-          en: 'UTT Arena: one of the largest esports competitions in the Grand Est region, hosted at UTT. 23rd edition (Nov 28–30, 2025): 496 players and ~100 volunteers.',
-        },
-        tasks: {
-          fr: [
-            "L'UTT Arena est la plus grande compétition esport du Grand-Est ayant lieu tous les ans dans les locaux de l'UTT. Accueillant 496 joueurs et une centaine de bénévoles poru sa 23ème édition du 28 au 30 novembre 2025, elle est un événement majeur du calendrier étudiant de l'UTT.",
-            "Responsable du développement pour l'édition 2024, mes missions ont été de maintenir et implémenter les fonctionnalités nécessaires du site web. En plus de cela, j'ai également assuré un rôle de responsable de l'un des différents tournois nécessitant alors une forte préparation en amont de l'événement.",
-            "Pour l'édition 2025, j'ai pris le poste de coordinateur et vice président de l'événement. Ma mission principale est alors de coordonner les différentes membres et assurrer la préparation de l'événement. Coordinateur de la communication et du graphisme j'ai été amené à me former afin d'alléger le travail des bénévoles en en assumant une partie. En plus de cela, j'ai également un rôle administratif important en lien avec les différents acteurs de l'événement ainsi qu'un important rôle de communication avec les participants aux vus de mon poste.",
-            "Je m'occupe également de la gestion de deux pôles que sont l'animation et le développement sur lesquels j'effectue des tâches aux côtés des autres membres afin de les aider. Les 7 coordinateurs travaillent ensemble durant près d'un an afin de proposer un évenement de qualité aux joueurs et au public.", 
-          ],
-          en: [
-            "UTT Arena is one of the largest esports competitions in the Grand Est region, held annually at UTT. With 496 players and around 100 volunteers for its 23rd edition from November 28 to 30, 2025, it is a major event in the UTT student calendar.",
-            "As coordinator for the 2025 edition, I am primarily responsible for coordinating teams and distributing tasks. I also have a significant administrative role liaising with UTT, the prefecture, and partners.",
-            "I also manage two key areas: animation and development, where I work alongside other members to assist them. The 7 coordinators work together for nearly a year to deliver a quality event for players and the public.",
-          ],
-        },
-        env: {
-          fr: 'Coordination événementielle / partenariats / gestion d’équipe / développement web (TypeScript, React, Next.js)',
-          en: 'Event coordination / partnerships / team leadership / web development (TypeScript, React, Next.js)',
-        },
+      tasks: {
+        fr: [
+          'Organisation d’ateliers techniques et d’événements au sein de l’UTT.',
+          'Administration et maintenance des serveurs étudiants (virtualisation avec Proxmox, conteneurisation avec Docker, orchestration avec Kubernetes).',
+          'Création de supports de communication visuelle (affiches, réseaux sociaux) avec Canva pour promouvoir les activités de l’association.',
+          'Coordination avec les membres de l’association pour planifier et organiser les projets techniques et événementiels.',
+        ],
+        en: [
+          'Organized technical workshops and events within UTT.',
+          'Administered and maintained student servers (virtualization with Proxmox, containerization with Docker, orchestration with Kubernetes).',
+          'Designed visual communication materials (posters, social media) using Canva to promote the association’s activities.',
+          'Collaborated with association members to plan and coordinate technical and event-based projects.',
+        ],
+      },
+      env: {
+        fr: 'Canva / Réseaux sociaux / Administration serveurs (Linux, Proxmox, Docker, Kubernetes) / Gestion de projet / Communication',
+        en: 'Canva / Social Media / Server administration (Linux, Proxmox, Docker, Kubernetes) / Project management / Communication',
       },
     },
-  ],
+  },
+  {
+    id: 'utt-arena-organizer',
+    company: { en: 'UTT Arena (UTT Net Group)', fr: 'UTT Arena (UTT Net Group)' },
+    role: { en: 'Organizer — UTT Arena (2024–2025)', fr: 'Organisateur — UTT Arena (2024–2025)' },
+    type: { en: 'Volunteer', fr: 'Association' },
+    period: { en: 'August 2024 - Jan 2026', fr: 'août 2024 - janv. 2026' },
+    description: {
+      fr: 'Coordinateur de l’UTT Arena 2025, compétition esport, et responsable développement sur l’édition 2024.',
+      en: 'Coordinator for UTT Arena 2025, an esports tournament, and lead developer for the 2024 edition.',
+    },
+    techs: ['TypeScript', 'React', 'Next.js', 'Node.js', 'GitHub', 'Prisma'],
+    details: {
+      context: {
+        fr: 'UTT Arena : plus grande compétition esport du Grand Est, organisée à l’UTT. 23e édition (28–30 novembre 2025) : 496 joueurs et ~100 bénévoles.',
+        en: 'UTT Arena: one of the largest esports competitions in the Grand Est region, hosted at UTT. 23rd edition (Nov 28–30, 2025): 496 players and ~100 volunteers.',
+      },
+      tasks: {
+        fr: [
+          "L'UTT Arena est la plus grande compétition esport du Grand-Est, organisée chaque année à l’UTT. Pour sa 23e édition (28–30 novembre 2025), l’événement accueillera 496 joueurs et une centaine de bénévoles, ce qui en fait un temps fort de la vie étudiante.",
+          "Responsable du développement pour l’édition 2024, j’ai maintenu et implémenté les fonctionnalités clés du site web. J’ai également assuré la gestion d’un des tournois, nécessitant une préparation rigoureuse en amont.",
+          "Pour l’édition 2025, j’ai pris le rôle de coordinateur général et vice-président. **Ma mission principale est de coordonner les différentes équipes ainsi que de dialoguer avec les acteurs externes (partenaires, communes, etc.).**",
+          "En tant que coordinateur des pôles communication et graphisme, j’ai été amené à me former à divers outils pour soutenir les bénévoles et alléger leur charge de travail. J’étais également l’interlocuteur principal des joueurs pour répondre à leurs questions ou résoudre leurs problèmes.",
+        ],
+        en: [
+          "UTT Arena is the largest esports competition in the Grand Est region, held annually at UTT. The 23rd edition (November 28–30, 2025) will host 496 players and around 100 volunteers, making it a highlight of the student calendar.",
+          "As lead developer for the 2024 edition, I maintained and implemented key features for the event’s website. I also managed one of the tournaments, requiring thorough preparation ahead of the event.",
+          "For the 2025 edition, I took on the role of general coordinator and vice president. **My main responsibility is to coordinate teams and engage with external stakeholders (partners, local authorities, etc.).**",
+          "As coordinator for the communication and design teams, I trained on various tools to support volunteers and reduce their workload. I was also the primary point of contact for players, addressing their questions and resolving issues.",
+        ],
+      },
+      env: {
+        fr: 'Coordination événementielle / partenariats / communication (interne et externe) / gestion d’équipe / développement web (TypeScript, React, Next.js)',
+        en: 'Event coordination / partnerships / communication (internal & external) / team management / web development (TypeScript, React, Next.js)',
+      },
+    },
+  },
+],
+
 
   // ===== PROJECTS (optional) =====
   projects: [
     {
       id: 'project-a',
-      title: { en: 'WeatherApp', fr: 'WeatherApp' },
+      title: { en: 'Personal Homelab', fr: 'Homelab personnel' },
       description: {
-        en: 'A real-time weather dashboard built with React and OpenWeather API.',
-        fr: 'Un tableau de bord météo en temps réel construit avec React et l\'API OpenWeather.',
+        en: 'A personal homelab setup with multiple virtual machines and containers.',
+        fr: 'Homelab personnel hébergeant plusieurs services ayant pour vocation d\'être agrendis et améliorés au fil du temps.',
       },
-      techs: ['React', 'TypeScript'],
-      url: 'https://weather-app.example.com',
-      github: 'https://github.com/janedoe/weather-app',
+      techs: ['Docker', 'Linux', 'Portainer'],
+      url: 'https://poncinre.com',
     },
     {
       id: 'project-b',
-      title: { en: 'TaskManager', fr: 'TaskManager' },
+      title: { en: 'TurboBouffe', fr: 'Turbobouffe' },
       description: {
-        en: 'A Kanban-style task management tool with drag-and-drop.',
-        fr: 'Un outil de gestion de tâches style Kanban avec glisser-déposer.',
+        en: 'Real-time order and inventory management tool for food service venues',
+        fr: 'Outil de gestion de commandes et d\'inventaire en temps réel pour des espaces de restauration',
       },
-      techs: ['React', 'Node.js', 'PostgreSQL'],
-      github: 'https://github.com/janedoe/task-manager',
+      techs: ['React', 'Node.js', 'Next.js', 'TypeScript', 'Prisma'],
     },
   ],
 
@@ -338,7 +341,6 @@ export const resumeConfig: ResumeConfig = {
       education: { en: 'EDUCATION', fr: 'FORMATION' },
       projects: { en: 'PROJECTS', fr: 'PROJETS' },
       hobbies: { en: 'HOBBIES', fr: 'LOISIRS' },
-      associativeExperience: { en: 'ASSOCIATIVE EXPERIENCE', fr: 'EXPÉRIENCES ASSOCIATIVES' },
     },
     experience: {
       mainTasks: { en: 'Main tasks:', fr: 'Tâches principales :' },
