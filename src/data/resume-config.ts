@@ -19,7 +19,7 @@ export const resumeConfig: ResumeConfig = {
     photoBackEmoji: '👩‍💻', // Shown when clicking the photo (3D flip)
     title: {
       en: 'Student in Networks and Telecommunications',
-      fr: 'Etudiant Réseau et Télécoms',
+      fr: 'Etudiant en Réseau et Télécoms',
     },
     subtitle: {
       en: 'UTT - University of Technology of Troyes',
