@@ -109,7 +109,7 @@ export const resumeConfig: ResumeConfig = {
     company: { en: 'University of Technology of Troyes (UTT)', fr: 'Université de Technologie de Troyes (UTT)' },
     role: { en: 'Audiovisual Technician', fr: 'Technicien audiovisuel' },
     type: { en: 'Part-time / Student job', fr: 'Emploi étudiant' },
-    period: { en: 'September 2025 - Present', fr: 'Septembre 2025 - aujourd’hui' },
+    period: { en: 'September 2025 - Present', fr: 'Septembre 2025 - Aujourd’hui' },
     description: {
       fr: 'Gestion du son, de la lumière et du stream lors d’événements à l’UTT. Résolution de problèmes matériel en temps réel et gestion du stress.',
       en: 'Managed audio, lighting, and live streaming for university events. Troubleshot hardware issues in real time under pressure.',
@@ -146,7 +146,7 @@ export const resumeConfig: ResumeConfig = {
     company: { en: 'Intermarché', fr: 'Intermarché' },
     role: { en: 'Warehouse Assistant', fr: 'Ouvrier polyvalent' },
     type: { en: 'Summer job', fr: 'Job étudiant' },
-    period: { en: 'Jul 2025 - Aug 2025', fr: 'juil. 2025 - août 2025' },
+    period: { en: 'Jul 2025 - Aug 2025', fr: 'Juil. 2025 - Août 2025' },
     description: {
       fr: 'Employé polyvalent, préparation de commandes drive, livraison de commandes drive, mise en rayon',
       en: 'General warehouse assistant, drive order preparation, drive order delivery, shelf stocking',
@@ -180,7 +180,7 @@ export const resumeConfig: ResumeConfig = {
     company: { en: 'UTT Net Group', fr: 'UTT Net Group' },
     role: { en: 'Assistant President', fr: 'Vice-président' },
     type: { en: 'Volunteer', fr: 'Association' },
-    period: { en: 'Aug 2024 – Present', fr: 'août 2024 – aujourd’hui' },
+    period: { en: 'Aug 2024 – Present', fr: 'Août 2024 – Aujourd’hui' },
     description: {
       fr: 'Organisation d’événements et d’ateliers techniques pour les étudiants, et administration des serveurs étudiants.',
       en: 'Organization of student events and technical workshops, and administration of student servers.',
@@ -216,7 +216,7 @@ export const resumeConfig: ResumeConfig = {
     company: { en: 'UTT Arena (UTT Net Group)', fr: 'UTT Arena (UTT Net Group)' },
     role: { en: 'Organizer — UTT Arena (2024–2025)', fr: 'Organisateur — UTT Arena (2024–2025)' },
     type: { en: 'Volunteer', fr: 'Association' },
-    period: { en: 'August 2024 - Jan 2026', fr: 'août 2024 - janv. 2026' },
+    period: { en: 'August 2024 - Jan 2026', fr: 'Août 2024 - Janv. 2026' },
     description: {
       fr: 'Coordinateur de l’UTT Arena 2025, compétition esport, et responsable développement sur l’édition 2024.',
       en: 'Coordinator for UTT Arena 2025, an esports tournament, and lead developer for the 2024 edition.',
