@@ -142,14 +142,14 @@ export const resumeConfig: ResumeConfig = {
     isHighlighted: true,
   },
   {
-    id: 'tcp-warehouse-handler-intern',
-    company: { en: 'TCP — Transport & Logistics', fr: 'TCP — Transport et Logistique' },
-    role: { en: 'Warehouse Handler', fr: 'Manutentionnaire' },
-    type: { en: 'Internship', fr: 'Stage' },
-    period: { en: 'Jul 2024 - Aug 2024', fr: 'juil. 2024 - août 2024' },
+    id: 'intermarche-summer-job',
+    company: { en: 'Intermarché', fr: 'Intermarché' },
+    role: { en: 'Warehouse Assistant', fr: 'Ouvrier polyvalent' },
+    type: { en: 'Summer job', fr: 'Job étudiant' },
+    period: { en: 'Jul 2025 - Aug 2025', fr: 'juil. 2025 - août 2025' },
     description: {
-      fr: 'Employé de manutention : préparation de commandes, palettisation et filmage de palettes.',
-      en: 'Warehouse operations: order picking, palletizing and pallet wrapping.',
+      fr: 'Employé polyvalent, préparation de commandes drive, livraison de commandes drive, mise en rayon',
+      en: 'General warehouse assistant, drive order preparation, drive order delivery, shelf stocking',
     },
     techs: [],
     details: {
@@ -160,18 +160,18 @@ export const resumeConfig: ResumeConfig = {
       tasks: {
         fr: [
           'Préparation de commandes.',
-          'Palettisation et manutention.',
-          'Filmage et sécurisation de palettes.',
+          'Mise en rayon et facing.',
+          'Inventaire et rangement.',
         ],
         en: [
           'Order picking and preparation.',
-          'Pallet wrapping and securing.',
-          'Palletizing and general handling.',
+          'Shelf stocking and facing.',
+          'Inventory and general handling.',
         ],
       },
       env: {
-        fr: 'Logistique / entrepôt',
-        en: 'Warehouse / logistics',
+        fr: 'Manutention / entrepôt',
+        en: 'Warehouse / manual labor',
       },
     },
   },
