@@ -23,7 +23,7 @@ export const resumeConfig: ResumeConfig = {
     },
     subtitle: {
       en: 'UTT - University of Technology of Troyes',
-      fr: 'UTT - Université de Technologie de Troyes',
+      fr: 'Recherche d\'un stage de 6 mois à partir de juillet 2026',
     },
     location: 'Troyes, France',
   },
@@ -145,7 +145,7 @@ export const resumeConfig: ResumeConfig = {
     id: 'intermarche-summer-job',
     company: { en: 'Intermarché', fr: 'Intermarché' },
     role: { en: 'Warehouse Assistant', fr: 'Ouvrier polyvalent' },
-    type: { en: 'Summer job', fr: 'Job étudiant' },
+    type: { en: 'Summer job', fr: 'Emploi étudiant' },
     period: { en: 'Jul 2025 - Aug 2025', fr: 'Juil. 2025 - Août 2025' },
     description: {
       fr: 'Employé polyvalent, préparation de commandes drive, livraison de commandes drive, mise en rayon',

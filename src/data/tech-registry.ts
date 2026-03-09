@@ -149,6 +149,10 @@ const TECH_REGISTRY = {
   'Storybook': { color: '#FF4785' },
   'Figma': { color: '#F24E1E' },
   'Stripe': { color: '#635BFF' },
+  'Audio': { color: '#009688' },
+  'Lighting': { color: '#FCC624' },
+  'Video': { color: '#06B6D4' },
+  'Streaming': { color: '#000000' },
 
   // ===== Testing =====
   'Jest': { color: '#C21325' },
