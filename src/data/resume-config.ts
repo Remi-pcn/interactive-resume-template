@@ -337,7 +337,7 @@ export const resumeConfig: ResumeConfig = {
     sections: {
       contact: { en: 'CONTACT', fr: 'CONTACT' },
       skills: { en: 'SKILLS', fr: 'COMPÉTENCES' },
-      experience: { en: 'PROFESSIONAL EXPERIENCE', fr: 'EXPÉRIENCES PROFESSIONNELLES' },
+      experience: { en: 'EXPERIENCE', fr: 'EXPÉRIENCES' },
       education: { en: 'EDUCATION', fr: 'FORMATION' },
       projects: { en: 'PROJECTS', fr: 'PROJETS' },
       hobbies: { en: 'HOBBIES', fr: 'LOISIRS' },
