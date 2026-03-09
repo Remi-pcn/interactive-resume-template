@@ -316,10 +316,10 @@ export const resumeConfig: ResumeConfig = {
   // Auto-detected: just drop your PDF files in public/cv/fr/ and public/cv/en/
   // The download button will appear automatically — no config needed!
   // Uncomment below only if you need to override the auto-detection:
-  // pdf: {
-  //   label: { en: 'Download PDF', fr: 'Télécharger le PDF' },
-  //   path: { en: '/cv/en/resume-en.pdf', fr: '/cv/fr/resume-fr.pdf' },
-  // },
+   pdf: {
+     label: { en: 'Download PDF', fr: 'Télécharger le PDF' },
+     path: { en: '/cv/CV_poncin.pdf', fr: '/cv/CV_poncin.pdf' },
+   },
 
   // ===== THEME =====
   theme: {
