@@ -43,7 +43,6 @@ export const resumeConfig: ResumeConfig = {
       fr: 'FR',
     },
   },
-
   // ===== CONTACT =====
   contact: [
     { type: 'github', label: 'Remi-pcn', href: 'https://github.com/remi-pcn' },
@@ -231,13 +230,13 @@ export const resumeConfig: ResumeConfig = {
         fr: [
           "L'UTT Arena est la plus grande compétition esport du Grand-Est, organisée chaque année à l’UTT. Pour sa 23e édition (28–30 novembre 2025), l’événement accueillera 496 joueurs et une centaine de bénévoles, ce qui en fait un temps fort de la vie étudiante.",
           "Responsable du développement pour l’édition 2024, j’ai maintenu et implémenté les fonctionnalités clés du site web. J’ai également assuré la gestion d’un des tournois, nécessitant une préparation rigoureuse en amont.",
-          "Pour l’édition 2025, j’ai pris le rôle de coordinateur général et vice-président. **Ma mission principale est de coordonner les différentes équipes ainsi que de dialoguer avec les acteurs externes (partenaires, communes, etc.).**",
+          "Pour l’édition 2025, j’ai pris le rôle de coordinateur général et vice-président. Ma mission principale est de coordonner les différentes équipes ainsi que de dialoguer avec les acteurs externes (partenaires, communes, etc.).",
           "En tant que coordinateur des pôles communication et graphisme, j’ai été amené à me former à divers outils pour soutenir les bénévoles et alléger leur charge de travail. J’étais également l’interlocuteur principal des joueurs pour répondre à leurs questions ou résoudre leurs problèmes.",
         ],
         en: [
           "UTT Arena is the largest esports competition in the Grand Est region, held annually at UTT. The 23rd edition (November 28–30, 2025) will host 496 players and around 100 volunteers, making it a highlight of the student calendar.",
           "As lead developer for the 2024 edition, I maintained and implemented key features for the event’s website. I also managed one of the tournaments, requiring thorough preparation ahead of the event.",
-          "For the 2025 edition, I took on the role of general coordinator and vice president. **My main responsibility is to coordinate teams and engage with external stakeholders (partners, local authorities, etc.).**",
+          "For the 2025 edition, I took on the role of general coordinator and vice president. y main responsibility is to coordinate teams and engage with external stakeholders (partners, local authorities, etc.).",
           "As coordinator for the communication and design teams, I trained on various tools to support volunteers and reduce their workload. I was also the primary point of contact for players, addressing their questions and resolving issues.",
         ],
       },
@@ -324,7 +323,7 @@ export const resumeConfig: ResumeConfig = {
 
   // ===== THEME =====
   theme: {
-    preset: 'warm', // 'minimal' | 'warm' | 'ocean' | 'forest' | 'slate' | 'lilac'
+    preset: 'slate', // 'minimal' | 'warm' | 'ocean' | 'forest' | 'slate' | 'lilac'
     // You can override individual colors:
     // colors: {
     //   primary: '#8B5A2B',
