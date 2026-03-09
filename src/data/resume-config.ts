@@ -111,7 +111,7 @@ export const resumeConfig: ResumeConfig = {
     type: { en: 'Part-time / Student job', fr: 'Emploi étudiant' },
     period: { en: 'September 2025 - Present', fr: 'Septembre 2025 - Aujourd’hui' },
     description: {
-      fr: 'Gestion du son, de la lumière et du stream lors d’événements à l’UTT. Résolution de problèmes matériel en temps réel et gestion du stress.',
+      fr: 'Gestion du son, de la lumière et de la diffusion en direct lors d’événements à l’UTT. Résolution de problèmes matériel en temps réel.',
       en: 'Managed audio, lighting, and live streaming for university events. Troubleshot hardware issues in real time under pressure.',
     },
     techs: ['Audio', 'Lighting', 'Video', 'Streaming'],
@@ -123,7 +123,7 @@ export const resumeConfig: ResumeConfig = {
       tasks: {
         fr: [
           'Régie son et lumière pendant des événements (installation, tests, exploitation).',
-          'Mise en place et supervision du stream.',
+          'Mise en place et supervision de la diffusion en direct.',
           'Diagnostic et résolution de pannes matériel en temps réel.',
           'Coordination avec les organisateurs pour respecter le déroulé.',
         ],
@@ -135,7 +135,7 @@ export const resumeConfig: ResumeConfig = {
         ],
       },
       env: {
-        fr: 'Audiovisuel / streaming / support live',
+        fr: 'Audiovisuel / Diffusion en direct / support sur site',
         en: 'Audiovisual / live streaming / on-site live support',
       },
     },
