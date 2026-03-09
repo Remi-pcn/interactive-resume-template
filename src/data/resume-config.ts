@@ -111,8 +111,8 @@ export const resumeConfig: ResumeConfig = {
     type: { en: 'Part-time / Student job', fr: 'Emploi étudiant' },
     period: { en: 'September 2025 - Present', fr: 'Septembre 2025 - Aujourd’hui' },
     description: {
-      fr: 'Gestion du son, de la lumière et de la diffusion en direct lors d’événements à l’UTT. Résolution de problèmes matériel en temps réel.',
-      en: 'Managed audio, lighting, and live streaming for university events. Troubleshot hardware issues in real time under pressure.',
+      fr: 'Gestion du son, de la lumière et de la diffusion en direct lors d’événements à l’UTT.',
+      en: 'Managed audio, lighting, and live streaming for university events.',
     },
     techs: ['Audio', 'Lighting', 'Video', 'Streaming'],
     details: {
