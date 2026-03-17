@@ -50,6 +50,7 @@ export const resumeConfig: ResumeConfig = {
     { type: 'email', label: 'remi.poncin@utt.fr' },
     { type: 'phone', label: '+33 6 65 79 22 28' },
     { type: 'location', label: 'Troyes, France' },
+    { type: 'website', label: 'poncinre.com', href: 'https://poncinre.com' },
   ],
 
   // ===== SKILLS =====
